@@ -28,17 +28,11 @@ export default function Footer() {
           Made from scratch using{' '}
           {darkModeLinkStyleTag('Next.js', 'https://nextjs.org')},{' '}
           {darkModeLinkStyleTag('Vercel', 'https://vercel.com')} and{' '}
-          {darkModeLinkStyleTag('Tailwind CSS', 'https://tailwindcss.com')}. The
-          code is{' '}
-          {darkModeLinkStyleTag(
-            'open-source',
-            'https://github.com/GLaDO8/nextjs-portfolio',
-          )}
-          .
+          {darkModeLinkStyleTag('Tailwind CSS', 'https://tailwindcss.com')}.
         </div>
         <SocialLinks />
         <div className="flex justify-start text-sm font-normal text-inactive-gray">
-          © Shreyas Gupta 2021-2077.
+          © {new Date().getFullYear()} Jayakrishnan M.
         </div>
       </footer>
     </div>

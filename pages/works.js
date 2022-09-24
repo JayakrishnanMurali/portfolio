@@ -6,11 +6,11 @@ export default function Index() {
     <>
       <Layout>
         <Head>
-          <title>Playground</title>
+          <title>Works</title>
           <meta rel="og:description" content="Works by Jayakrishnan M" />
           <meta name="description" content="MWorks by Jayakrishnan M" />
         </Head>
-        <h1 className="page-title-design">Playground</h1>
+        <h1 className="page-title-design">Works</h1>
         <div>
           <div>
             <h2 className="section-title-design">Neue Instagram</h2>
